@@ -34,7 +34,7 @@ age = age + 1;
 odd or even %
     */
 
-Console.WriteLine("Please enter a numg=ber");
+Console.WriteLine("Please enter a number");
 int input = int.Parse(Console.ReadLine());
 int oddCheck = input % 2;
 if(oddCheck == 0)
@@ -74,3 +74,46 @@ if (y == null);
 //nonnullable (int)
 //int z = null;
 
+//exercises
+//exercise 1
+
+Console.WriteLine("Say something");
+string response = Console.ReadLine();
+Console.WriteLine(response);
+
+//exercise 2
+
+Console.WriteLine("Give me a number");
+double userNumber = double.Parse(Console.ReadLine());
+double compNumber = userNumber + 1;
+Console.WriteLine(compNumber);
+
+//exercise 3
+Console.WriteLine("Give me a number");
+double newUserNumber = double.Parse(Console.ReadLine());
+double newCompNumber = newUserNumber + 0.5;
+Console.WriteLine(newCompNumber);
+
+//exercise 4
+
+Console.WriteLine("enter a whole number");
+int firstNum = int.Parse(Console.ReadLine());
+Console.WriteLine("enter another whole number");
+int secondNum = int.Parse(Console.ReadLine());
+Console.WriteLine(firstNum + secondNum);
+
+//exercise 5
+Console.WriteLine("enter a whole number");
+int thirdNum =  int.Parse(Console.ReadLine());
+Console.WriteLine("enter another whole number");
+int fourthNum = int.Parse(Console.ReadLine());
+Console.WriteLine(thirdNum * fourthNum);
+
+//exercise 6
+int c = 0;
+do while
+    {
+        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Would you like to continue? (y/n)");
+        if (c == 0)
+    }
